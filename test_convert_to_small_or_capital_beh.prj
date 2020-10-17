@@ -1,0 +1,3 @@
+verilog work "convert_to_capital_or_small.v"
+verilog work "test_convert_to_small_or_capital.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

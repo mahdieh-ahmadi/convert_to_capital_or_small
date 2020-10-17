@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/convert_to_capital_or_small/convert_to_capital_or_small.xst" -ofn "E:/university/3991/fpga/homeworks/convert_to_capital_or_small/convert_to_capital_or_small.syr" 
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/convert_to_capital_or_small/convert_to_capital_or_small.xst" -ofn "E:/university/3991/fpga/homeworks/convert_to_capital_or_small/convert_to_capital_or_small.syr" 
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/convert_to_capital_or_small/convert_to_capital_or_small.xst" -ofn "E:/university/3991/fpga/homeworks/convert_to_capital_or_small/convert_to_capital_or_small.syr" 
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/convert_to_capital_or_small/convert_to_capital_or_small.xst" -ofn "E:/university/3991/fpga/homeworks/convert_to_capital_or_small/convert_to_capital_or_small.syr" 
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/convert_to_capital_or_small/convert_to_capital_or_small.xst" -ofn "E:/university/3991/fpga/homeworks/convert_to_capital_or_small/convert_to_capital_or_small.syr" 
+xst -intstyle ise -ifn "E:/university/3991/fpga/homeworks/convert_to_capital_or_small/convert_to_capital_or_small.xst" -ofn "E:/university/3991/fpga/homeworks/convert_to_capital_or_small/convert_to_capital_or_small.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 convert_to_capital_or_small.ngc convert_to_capital_or_small.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o convert_to_capital_or_small_map.ncd convert_to_capital_or_small.ngd convert_to_capital_or_small.pcf 
+par -w -intstyle ise -ol high -mt off convert_to_capital_or_small_map.ncd convert_to_capital_or_small.ncd convert_to_capital_or_small.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml convert_to_capital_or_small.twx convert_to_capital_or_small.ncd -o convert_to_capital_or_small.twr convert_to_capital_or_small.pcf 
