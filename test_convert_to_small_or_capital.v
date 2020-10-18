@@ -40,29 +40,29 @@ module test_convert_to_small_or_capital;
 
 	initial begin
 		// Initialize Inputs
-		in = 8'b01000001; // A
+		in = 8'h41; // A
 
 		// Wait 100 ns for global reset to finish
 		#100;
         
 		// Add stimulus here
 		
-		in = 8'b01001010; // J
+		in = 8'h4A; // J
 		#100;
 		
-		in = 8'b01010010; // R
+		in = 8'h52; // R
 		#100;
 		
-		in = 8'b01011010; // Z
+		in = 8'h5A; // Z
 		#100;
 		
-		in = 8'b01100100; // d
+		in = 8'h64; // d
 		#100;
 		
-		in = 8'b01110110; // v
+		in = 8'h76; // v
 		#100;
 		
-		in = 8'b01110111; // w
+		in = 8'h77; // w
 		#100;
 
 	end

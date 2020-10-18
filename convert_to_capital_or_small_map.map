@@ -11,7 +11,7 @@ Target Device  : xc6slx4
 Target Package : tqg144
 Target Speed   : -3
 Mapper Version : spartan6 -- $Revision: 1.55 $
-Mapped Date    : Sat Oct 17 12:06:30 2020
+Mapped Date    : Sun Oct 18 18:58:57 2020
 
 Mapping design into LUTs...
 Running directed packing...
@@ -20,7 +20,7 @@ Updating timing models...
 INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
    (.mrp).
 Running timing-driven placement...
-Total REAL time at the beginning of Placer: 3 secs 
+Total REAL time at the beginning of Placer: 4 secs 
 Total CPU  time at the beginning of Placer: 3 secs 
 
 Phase 1.1  Initial Placement Analysis
@@ -44,10 +44,10 @@ Phase 6.30  Global Clock Region Assignment (Checksum:8d) REAL time: 4 secs
 
 Phase 7.3  Local Placement Optimization
 .....
-Phase 7.3  Local Placement Optimization (Checksum:cd8bd80) REAL time: 4 secs 
+Phase 7.3  Local Placement Optimization (Checksum:cd8bd80) REAL time: 5 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:cd8bd80) REAL time: 4 secs 
+Phase 8.5  Local Placement Optimization (Checksum:cd8bd80) REAL time: 5 secs 
 
 Phase 9.8  Global Placement
 Phase 9.8  Global Placement (Checksum:cd8bd80) REAL time: 5 secs 
@@ -65,7 +65,7 @@ Phase 13.34  Placement Validation
 Phase 13.34  Placement Validation (Checksum:edcbd18) REAL time: 5 secs 
 
 Total REAL time to Placer completion: 5 secs 
-Total CPU  time to Placer completion: 4 secs 
+Total CPU  time to Placer completion: 5 secs 
 Running post-placement packing...
 Writing output files...
 
@@ -111,7 +111,7 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                1.13
 
-Peak Memory Usage:  4502 MB
+Peak Memory Usage:  4500 MB
 Total REAL time to MAP completion:  5 secs 
 Total CPU time to MAP completion:   5 secs 
 

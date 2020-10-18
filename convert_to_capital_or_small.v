@@ -25,16 +25,16 @@ module convert_to_capital_or_small(
     );
 	 
 
-not(cap,in[5]);
+	not(cap,in[5]);
 
-buf(out[0],in[0]);
-buf(out[1],in[1]);
-buf(out[2],in[2]);
-buf(out[3],in[3]);
-buf(out[4],in[4]);
-not(out[5],in[5]);
-buf(out[6],in[6]);
-buf(out[7],in[7]);
-//xor(out,in,8'b00100000);
+	buf(out[0],in[0]);
+	buf(out[1],in[1]);
+	buf(out[2],in[2]);
+	buf(out[3],in[3]);
+	buf(out[4],in[4]);
+	not(out[5],in[5]);
+	buf(out[6],in[6]);
+	buf(out[7],in[7]);
+
 
 endmodule
